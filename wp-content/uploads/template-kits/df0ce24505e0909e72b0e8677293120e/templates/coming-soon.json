@@ -1,0 +1,472 @@
+{
+    "version": "0.4",
+    "title": "Coming Soon",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "784ef56",
+            "settings": {
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/web.sociolib.com\/impress\/wp-content\/uploads\/sites\/25\/2023\/09\/64.jpg",
+                    "id": 1133,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "top center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "200",
+                    "right": "0",
+                    "bottom": "200",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=049b4e0"
+                },
+                "animation": "fadeIn",
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "20",
+                    "bottom": "80",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "20",
+                    "bottom": "40",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "26907eae",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "273effb8",
+                            "settings": {
+                                "title": "Subscribe to get notified",
+                                "header_size": "h6",
+                                "_animation": "fadeInDown",
+                                "align": "center",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "123cf544",
+                            "settings": {
+                                "title": "Coming Soon",
+                                "header_size": "h1",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=primary"
+                                },
+                                "_padding": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding_widescreen": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_padding_tablet": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_animation": "fadeInDown",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "7f3d3ef9",
+                            "settings": {
+                                "ekit_countdown_timer_due_time": "2025-01-03 00:00",
+                                "ekit_countdown_timer_weeks_label": "Weeks",
+                                "ekit_countdown_timer_days_label": "Days",
+                                "ekit_countdown_timer_hours_label": "Hours",
+                                "ekit_countdown_timer_minutes_hours_label": "Minutes",
+                                "ekit_countdown_timer_seconds_hours_label": "Seconds",
+                                "ekit_countdown_timer_title": "Countdown is finished!",
+                                "ekit_countdown_timer_expiry_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s",
+                                "ekit_countdown_timer_days_width_tablet": {
+                                    "unit": "px",
+                                    "size": 240,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_width_mobile": {
+                                    "unit": "px",
+                                    "size": 360,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_height": {
+                                    "unit": "px",
+                                    "size": 80,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_height_mobile": {
+                                    "unit": "px",
+                                    "size": 50,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_content_margin_bottom_tablet": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_content_margin_bottom_mobile": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_digits_margin_bottom": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_background_group_background": "classic",
+                                "ekit_countdown_timer_hours_digits_margin_bottom": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_hours_background_background": "classic",
+                                "ekit_countdown_timer_minutes_digits_margin_bottom": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_minutes_background_background": "classic",
+                                "ekit_countdown_timer_seconds_digits_margin_bottom": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_seconds_background_background": "classic",
+                                "_padding": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "15",
+                                    "bottom": "0",
+                                    "left": "15",
+                                    "isLinked": false
+                                },
+                                "_padding_tablet": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_animation": "fadeInUp",
+                                "__globals__": {
+                                    "ekit_countdown_timer_days_label_background_group_color": "globals\/colors?id=e632858",
+                                    "ekit_countdown_timer_days_background_group_color": "globals\/colors?id=e632858",
+                                    "ekit_countdown_timer_hours_background_color": "globals\/colors?id=e632858",
+                                    "ekit_countdown_timer_minutes_background_color": "globals\/colors?id=e632858",
+                                    "ekit_countdown_timer_seconds_background_color": "globals\/colors?id=e632858",
+                                    "ekit_countdown_timer_days_digits_typography_group_typography": "globals\/typography?id=8352cd5",
+                                    "ekit_countdown_timer_days_label_typography_group_typography": "globals\/typography?id=accent",
+                                    "ekit_countdown_timer_hours_digits_typography_group_typography": "globals\/typography?id=8352cd5",
+                                    "ekit_countdown_timer_hours_label_typography_group_typography": "globals\/typography?id=accent",
+                                    "ekit_countdown_timer_minutes_digits_typography_group_typography": "globals\/typography?id=8352cd5",
+                                    "ekit_countdown_timer_minutes_label_typography_group_typography": "globals\/typography?id=accent",
+                                    "ekit_countdown_timer_seconds_digits_typography_group_typography": "globals\/typography?id=8352cd5",
+                                    "ekit_countdown_timer_seconds_label_typography_group_typography": "globals\/typography?id=accent",
+                                    "ekit_countdown_timer_days_digits_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_days_label_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_hours_digits_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_hours_label_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_minutes_digits_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_minutes_label_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_seconds_digits_color": "globals\/colors?id=e777cd9",
+                                    "ekit_countdown_timer_seconds_label_color": "globals\/colors?id=e777cd9"
+                                },
+                                "ekit_countdown_timer_days_lebel_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_countdown_timer_hours_lebel_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_countdown_timer_minutes_lebel_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_countdown_timer_seconds_lebel_margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "-20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-30",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_countdown_timer_weeks_digits_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_weeks_digits_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_weeks_label_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_weeks_label_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_digits_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_digits_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_label_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_days_label_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_hours_digits_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_hours_digits_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_hours_label_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_hours_label_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_minutes_digits_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_minutes_digits_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_minutes_label_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_minutes_label_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_seconds_digits_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_seconds_digits_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_seconds_label_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_seconds_label_typography_group_word_spacing": {
+                                    "unit": "em",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_content_height": {
+                                    "unit": "px",
+                                    "size": 120,
+                                    "sizes": []
+                                },
+                                "ekit_countdown_timer_content_line_height": {
+                                    "unit": "px",
+                                    "size": 120,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-countdown-timer",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "5f4b1255",
+                            "settings": {
+                                "text": "Subscribe",
+                                "align": "center",
+                                "_animation": "fadeInUp",
+                                "_z_index": 5,
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_tablet": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
