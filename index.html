@@ -1456,5 +1456,45 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_minimum_price":"Amount entered is less than the required minimum.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_min":"Please enter a value greater than or equal to {0}.","val_max":"Please enter a value less than or equal to {0}.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_turnstile_fail_msg":"Cloudflare Turnstile verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","country":"","country_list_label":"Country list","wpforms_plugin_url":"\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","nonce":"b802ee1bd1","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","readOnlyDisallowedFields":["captcha","map","content","divider","hidden","html","entry-preview","pagebreak","payment-total"],"error_updating_token":"Error updating token. Please try again or contact support if the issue persists.","network_error":"Network error or server is unreachable. Check your connection or try again later.","token_cache_lifetime":"86400","hn_data":{"13":1},"analytics_composite_field_types":["name","address","date-time","email","password","paypal-commerce"],"analytics_base64":"1","address_field":{"list_countries_without_states":["GB","DE","CH","NL"]}}
 /* ]]> */
 </script>
-	</body>
+	
+<style id="anthony-contact-demo-style">
+/* Thank-you preview: takes the form's exact footprint. */
+#wpforms-13 { position: relative; }
+#wpforms-13 .contact-thanks-preview { box-sizing: border-box; display: none; position: absolute; inset: 0; z-index: 3; overflow: hidden; align-items: center; justify-content: center; flex-direction: column; padding: 28px 20px; text-align: center; border: 1px solid rgba(255,255,255,.14); border-radius: 12px; background: linear-gradient(145deg, #15222b 0%, #10191f 100%); color: #fff; opacity: 0; transform: translateY(8px); transition: opacity .35s ease, transform .35s ease; }
+#wpforms-13.contact-thanks-visible .contact-thanks-preview { display: flex; opacity: 1; transform: none; }
+#wpforms-13.contact-thanks-visible #wpforms-form-13 { visibility: hidden; }
+#wpforms-13 .contact-thanks-icon { width: 66px; height: 66px; border-radius: 50%; display: grid; place-items: center; background: rgba(94, 224, 169, .12); border: 1px solid rgba(94,224,169,.35); margin-bottom: 19px; animation: contactThanksPop .45s ease both; }
+#wpforms-13 .contact-thanks-icon svg { width: 33px; height: 33px; stroke: #64e0af; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+#wpforms-13 .contact-thanks-preview h3 { color: #fff; font-size: clamp(24px, 3vw, 31px); font-weight: 700; line-height: 1.2; margin: 0 0 10px; }
+#wpforms-13 .contact-thanks-preview p { max-width: 310px; color: #c6d2d9; font-size: 15px; line-height: 1.65; margin: 0; }
+#wpforms-13 .contact-thanks-preview small { color: #a1abb3; font-size: 12px; margin-top: 19px; }
+@keyframes contactThanksPop { from { opacity: 0; transform: scale(.8); } to { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { #wpforms-13 .contact-thanks-preview, #wpforms-13 .contact-thanks-icon { transition: none; animation: none; } }
+</style>
+<script id="anthony-contact-demo-script">
+(function () {
+  function initContactPreview() {
+    var form = document.getElementById('wpforms-form-13');
+    var wrap = document.getElementById('wpforms-13');
+    if (!form || !wrap || wrap.querySelector('.contact-thanks-preview')) return;
+    var panel = document.createElement('div');
+    panel.className = 'contact-thanks-preview';
+    panel.setAttribute('role', 'status');
+    panel.setAttribute('aria-live', 'polite');
+    panel.innerHTML = '<div class="contact-thanks-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></svg></div><h3>Thank you!</h3><p>Here\'s a preview of the confirmation message visitors will see after sending.</p><small>Preview only — your message was not sent.</small>';
+    wrap.appendChild(panel);
+    // Capture submit before any legacy WordPress/WPForms listeners can navigate away.
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      wrap.style.minHeight = Math.ceil(form.getBoundingClientRect().height) + 'px';
+      wrap.classList.add('contact-thanks-visible');
+      form.setAttribute('aria-hidden', 'true');
+    }, true);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initContactPreview);
+  else initContactPreview();
+})();
+</script>
+</body>
 </html>
